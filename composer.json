@@ -1,0 +1,30 @@
+{
+    "name": "nekoos/identity-card-validator",
+    "description": "Standalone PHP identity card validator for multiple countries. Fully tested, open for extensions and new formats.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["cards", "identity", "validator"],
+    "authors": [
+        {
+            "name": "Neder Alfono Fandiño Andrade",
+            "email": "neafand@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6|>=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7.9",
+        "squizlabs/php_codesniffer": "^3.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NekoOs\\IdentityCard\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NekoOs\\IdentityCard\\": "tests"
+        }
+    }
+}
